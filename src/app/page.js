@@ -16,20 +16,21 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section className="bg-gray-100 h-screen py-16 px-6 text-center md:text-left">
-        <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center">
-          <div className="md:w-1/2">
+      <section className="bg-gray-100 h-screen p-10 items-center text-center md:text-left">
+        <div className=" mx-auto flex flex-col gap-5 md:flex-row items-center">
+          <div className="md:w-1/2 justify-center align-middle text-center">
             <h1 className="text-3xl text-black font-bold">Discover the Best Tech Tools for Programmers</h1>
             <p className="mt-4 text-gray-700">Unlock Your Full Potential: Explore the latest and greatest tech tools designed to streamline your workflow.</p>
             <button className="bg-black text-white px-6 py-3 rounded inline-block mt-4">Get Started</button>          </div>
           <div className="md:w-1/2 mt-8 md:mt-0">
             <img src="/hero1.jpg" alt="Showcase" className="w-full rounded-md" />
           </div>
+
         </div>
       </section>
 
       {/* Features Section */}
-      <section className="py-16 px-6">
+      <section className="py-16 px-6 bg-gray-200">
         <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-6">
           {[
             { title: 'File Converter', desc: 'Convert JSON ↔ CSV, Markdown ↔ HTML effortlessly.' },
